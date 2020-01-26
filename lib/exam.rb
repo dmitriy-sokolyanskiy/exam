@@ -1,4 +1,4 @@
-require_relative './dependencies'
+require_relative './exam/game'
 
 module Exam
   class Error < StandardError; end
