@@ -1,6 +1,5 @@
 lib = File.expand_path('../lib', __FILE__)
-# $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-$LOAD_PATH << lib unless $LOAD_PATH.include?(lib)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'exam/version'
 puts ">>>>11 #{lib}"
 puts ">>>>12 #{$LOAD_PATH.include?(lib)}"
