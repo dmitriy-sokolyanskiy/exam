@@ -1,4 +1,4 @@
-lib = File.expand_path('lib', __dir__)
+lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'exam/version'
 puts ">>>>11 #{lib}"
@@ -8,7 +8,7 @@ puts ">>>>14 #{Exam::VERSION}"
 Gem::Specification.new do |spec|
   spec.name          = "exam"
   spec.version       = Exam::VERSION
-  spec.authors       = ["Mater Yoda"]
+  spec.authors       = ["Master Yoda"]
   spec.email         = ["magic@gmail.com"]
 
   spec.summary       = 'Just example'
